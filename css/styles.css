@@ -269,14 +269,40 @@ body {
 
 /* Content Pages */
 .page-header {
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--medium-blue) 50%, var(--accent-color) 100%);
     color: var(--white);
-    padding: 3rem 0;
+    padding: 5rem 0;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .page-header h2 {
     font-size: 2.5rem;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.page-header p {
+    position: relative;
+    z-index: 2;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    opacity: 0.95;
 }
 
 .content-section {
