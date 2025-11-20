@@ -104,11 +104,34 @@ The site uses CSS custom properties for easy theming. Edit `css/styles.css`:
     --primary-color: #0066cc;      /* Main brand color */
     --secondary-color: #004080;    /* Dark brand color */
     --accent-color: #00aaff;       /* Accent/highlight color */
-    --text-color: #333;            /* Main text color */
+    --text-color: #333333;         /* Main text color */
     --light-bg: #f5f5f5;           /* Light background */
     --white: #ffffff;              /* White */
+    --medium-blue: #3385d6;        /* Alternative highlights */
+    --darker-blue: #003d80;        /* Hover states */
+    --light-gray: #e0e0e0;         /* Borders and dividers */
+    --medium-gray: #666666;        /* Secondary text */
+    --light-orange: #ffd27f;       /* Special highlights */
+    --sea-green: #2e8b57;          /* Accent color alternative */
 }
 ```
+
+#### Full Color Palette
+
+| Color | Hex Code | Usage |
+|-------|----------|-------|
+| Primary Blue | `#0066cc` | Main brand color, buttons, links |
+| Dark Blue | `#004080` | Secondary brand color, dark text |
+| Bright Cyan | `#00aaff` | Accents and highlights |
+| Primary Text | `#333333` | Main text color |
+| Light Background | `#f5f5f5` | Section backgrounds |
+| White | `#ffffff` | Navigation bar, cards |
+| Medium Blue | `#3385d6` | Alternative highlights |
+| Darker Blue | `#003d80` | Hover states |
+| Light Gray | `#e0e0e0` | Borders and dividers |
+| Medium Gray | `#666666` | Secondary text |
+| Light Orange | `#ffd27f` | Special highlights |
+| Sea Green | `#2e8b57` | Accent color alternative |
 
 ### Content
 
