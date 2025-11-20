@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalles del proyecto">
+    <title>Amarre - Project Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <img src="images/logo.png" alt="Amarre Logo" class="logo">
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="projects.html">Proyectos</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2 id="project-title">Detalles del Proyecto</h2>
+                <a href="projects.html" class="back-link">← Volver a Proyectos</a>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="project-detail">
+                    <div class="project-detail-image">
+                        <img id="project-image" src="images/project-placeholder.jpg" alt="Proyecto" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 600%22%3E%3Crect fill=%22%23f5f5f5%22 width=%22800%22 height=%22600%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2248%22 fill=%22%230066cc%22%3EImagen del Proyecto%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    
+                    <div class="project-detail-content">
+                        <h3>Descripción</h3>
+                        <p id="project-description">Este proyecto involucró un trabajo completo de servicios náuticos profesionales, incluyendo instalación, mantenimiento y asesoramiento técnico especializado.</p>
+                        
+                        <h3>Detalles del Proyecto</h3>
+                        <ul class="project-details-list">
+                            <li><strong>Cliente:</strong> <span id="project-client">Confidencial</span></li>
+                            <li><strong>Duración:</strong> <span id="project-duration">3 meses</span></li>
+                            <li><strong>Ubicación:</strong> <span id="project-location">España</span></li>
+                            <li><strong>Tipo:</strong> <span id="project-type">Servicios Náuticos</span></li>
+                        </ul>
+
+                        <h3>Servicios Realizados</h3>
+                        <ul id="project-services" class="project-services-list">
+                            <li>Instalación de sistemas de amarre</li>
+                            <li>Mantenimiento preventivo</li>
+                            <li>Asesoramiento técnico</li>
+                            <li>Gestión de documentación</li>
+                        </ul>
+
+                        <h3>Resultados</h3>
+                        <p id="project-results">El proyecto se completó con éxito, superando las expectativas del cliente y cumpliendo con todos los estándares de calidad y seguridad requeridos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>¿Interesado en un proyecto similar?</h2>
+                <p>Contáctenos para discutir sus necesidades</p>
+                <a href="contact.html" class="btn btn-secondary">Contactar</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Amarre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/project-detail.js"></script>
+</body>
+</html>

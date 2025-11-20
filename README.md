@@ -15,10 +15,13 @@ Amarre is a modern, fully responsive static website designed for a nautical serv
 
 - ✅ **Fully Responsive**: Optimized for all screen sizes (mobile, tablet, desktop)
 - ✅ **Mobile Navigation**: Hamburger menu for mobile devices with smooth animations
+- ✅ **Professional Logo**: Custom Amarre branding integrated throughout
+- ✅ **Projects Gallery**: Interactive project showcase with clickable cards
+- ✅ **Project Details**: Dedicated pages for each project with full information
 - ✅ **Semantic HTML5**: Clean, modern code structure
 - ✅ **Modern CSS3**: Utilizes CSS Grid, Flexbox, and CSS custom properties
 - ✅ **Accessible**: ARIA labels and keyboard navigation support
-- ✅ **Multi-page**: Home, Services, About Us, and Contact pages
+- ✅ **Multi-page**: Home, Services, Projects, About Us, and Contact pages
 - ✅ **Zero Dependencies**: No frameworks or external libraries required
 - ✅ **Professional Dev Tools**: ESLint, Prettier, Stylelint configured
 - ✅ **Live Reload**: Development server with hot reload
@@ -29,12 +32,17 @@ Amarre is a modern, fully responsive static website designed for a nautical serv
 Amarre/
 ├── index.html              # Homepage
 ├── services.html           # Services page
+├── projects.html           # Projects gallery page
+├── project-detail.html     # Individual project details page
 ├── about.html              # About Us page
 ├── contact.html            # Contact page
 ├── css/
 │   └── styles.css          # Main stylesheet (responsive)
 ├── js/
-│   └── script.js           # JavaScript for mobile navigation
+│   ├── script.js           # JavaScript for mobile navigation
+│   └── project-detail.js   # Project details functionality
+├── images/
+│   └── logo.png            # Amarre logo
 ├── .vscode/                # VS Code settings and extensions
 ├── package.json            # Node.js dependencies and scripts
 ├── .prettierrc             # Code formatting configuration
@@ -106,8 +114,19 @@ The site uses CSS custom properties for easy theming. Edit `css/styles.css`:
 
 - **Company Information**: Edit `about.html`
 - **Services**: Edit `services.html`
+- **Projects**: Add/edit projects in `projects.html` and update project data in `js/project-detail.js`
 - **Contact Details**: Edit `contact.html`
 - **Homepage**: Edit `index.html`
+
+### Adding Project Images
+
+1. Add project images to the `images/` folder
+2. Name them appropriately (e.g., `project1.jpg`, `project2.jpg`)
+3. Update the image src in `projects.html`:
+   ```html
+   <img src="images/project1.jpg" alt="Project 1">
+   ```
+4. Update project data in `js/project-detail.js` to add more projects
 
 ### Adding Images
 
