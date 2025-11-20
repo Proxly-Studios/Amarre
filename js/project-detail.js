@@ -25,6 +25,7 @@ const projects = {
         duration: 'Multiple phases',
         location: 'Netherlands',
         type: 'Hydraulic Engineering',
+        image: 'Bouwkuip-2-1300x731.jpg',
         services: [
             'Structural design for lock gates',
             'Hydraulic systems engineering',
@@ -124,6 +125,11 @@ function loadProjectDetails() {
         document.getElementById('project-location').textContent = project.location;
         document.getElementById('project-type').textContent = project.type;
         document.getElementById('project-results').textContent = project.results;
+        
+        // Load project image if available
+        if (project.image) {
+            document.getElementById('project-image').src = `images/${project.image}`;
+        }
         
         // Load services list
         const servicesList = document.getElementById('project-services');
