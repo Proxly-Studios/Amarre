@@ -26,9 +26,9 @@ Your Amarre project is now fully configured with professional development tools:
 
 Your website includes:
 - `index.html` - Homepage with hero section and features
-- `servicios.html` - Services page with detailed service listings
-- `sobre-nosotros.html` - About Us page with company information
-- `contacto.html` - Contact page with form
+- `services.html` - Services page with detailed service listings
+- `about.html` - About Us page with company information
+- `contact.html` - Contact page with form
 - `css/styles.css` - Complete responsive stylesheet
 - `js/script.js` - Mobile navigation functionality
 
@@ -107,9 +107,9 @@ Edit `css/styles.css` and modify the CSS variables:
 
 ### Update Content
 
-- **Company info**: Edit `sobre-nosotros.html`
-- **Services**: Edit `servicios.html`
-- **Contact details**: Edit `contacto.html`
+- **Company info**: Edit `about.html`
+- **Services**: Edit `services.html`
+- **Contact details**: Edit `contact.html`
 
 ### Add Images
 

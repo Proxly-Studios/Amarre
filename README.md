@@ -28,9 +28,9 @@ Amarre is a modern, fully responsive static website designed for a nautical serv
 ```
 Amarre/
 ├── index.html              # Homepage
-├── servicios.html          # Services page
-├── sobre-nosotros.html     # About Us page
-├── contacto.html           # Contact page
+├── services.html           # Services page
+├── about.html              # About Us page
+├── contact.html            # Contact page
 ├── css/
 │   └── styles.css          # Main stylesheet (responsive)
 ├── js/
@@ -104,9 +104,9 @@ The site uses CSS custom properties for easy theming. Edit `css/styles.css`:
 
 ### Content
 
-- **Company Information**: Edit `sobre-nosotros.html`
-- **Services**: Edit `servicios.html`
-- **Contact Details**: Edit `contacto.html`
+- **Company Information**: Edit `about.html`
+- **Services**: Edit `services.html`
+- **Contact Details**: Edit `contact.html`
 - **Homepage**: Edit `index.html`
 
 ### Adding Images

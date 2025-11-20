@@ -28,9 +28,9 @@ npm run dev
 ```
 Amarre/
 ├── index.html                 # 🏠 Homepage
-├── servicios.html             # 💼 Services page
-├── sobre-nosotros.html        # 👥 About Us page
-├── contacto.html              # 📧 Contact page
+├── services.html              # 💼 Services page
+├── about.html                 # 👥 About Us page
+├── contact.html               # 📧 Contact page
 ├── css/
 │   └── styles.css            # 🎨 All styles (responsive)
 ├── js/
@@ -54,7 +54,7 @@ Edit `css/styles.css` (lines 7-13):
 Find and replace "Amarre" in all HTML files with your company name.
 
 ### Change Contact Info
-Edit `contacto.html` (lines 82-84) with your actual contact details.
+Edit `contact.html` (lines 82-84) with your actual contact details.
 
 ## 📱 Responsive Breakpoints
 
