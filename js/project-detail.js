@@ -19,89 +19,89 @@ const projects = {
         results: 'Successfully completed multiple complex engineering projects for harbors in Rotterdam and the Netherlands. Projects included design review, construction preparation, and technical consultation for various maritime infrastructure components.'
     },
     2: {
-        title: 'Complete Maritime Maintenance',
-        description: 'Comprehensive maintenance and restoration service for a 25-meter luxury yacht. Detailed work that included complete system review, equipment renovation, and aesthetic improvements.',
-        client: 'Private Client',
-        duration: '4 months',
-        location: 'Malaga, Spain',
-        type: 'Maintenance and Restoration',
+        title: 'Detachering LievenseCSO',
+        description: 'Detachment engineering services for LievenseCSO, working as senior structural engineer on major projects including the third lock of the Beatrixsluizen.',
+        client: 'LievenseCSO',
+        duration: 'Multiple phases',
+        location: 'Netherlands',
+        type: 'Hydraulic Engineering',
         services: [
-            'Complete hull and systems inspection',
-            'Engine and electrical systems maintenance',
-            'Interior finishing renovation',
-            'Navigation systems upgrade',
-            'Anticorrosive treatment',
-            'Professional cleaning and polishing'
+            'Structural design for lock gates',
+            'Hydraulic systems engineering',
+            'Construction document review',
+            'Technical consultation and inspection',
+            'Foundation and substructure design',
+            'Safety compliance verification'
         ],
-        results: 'Yacht completely renovated and in optimal condition. Owner expressed complete satisfaction with work quality and timeline adherence.'
+        results: 'Successfully delivered structural engineering expertise for complex hydraulic infrastructure. Projects completed on schedule with full safety certification.'
     },
     3: {
-        title: 'Comprehensive Port Services',
-        description: 'Complete commercial fleet management at Valencia port, including mooring services, preventive maintenance, and administrative management for 15 commercial vessels.',
-        client: 'Mediterranean Shipping Line',
-        duration: 'Annual contract',
-        location: 'Valencia, Spain',
-        type: 'Fleet Management',
+        title: 'Krachtige IJsseldijken (KIJK)',
+        description: 'Dike reinforcement project selected by Hoogheemraadschap van Schieland en de Krimpenerwaard in 2017 for the exploratory phase of major dike strengthening initiative.',
+        client: 'Hoogheemraadschap van Schieland en de Krimpenerwaard',
+        duration: 'Multi-year project',
+        location: 'Schieland & Krimpenerwaard region, Netherlands',
+        type: 'Dike Engineering',
         services: [
-            'Mooring and port space management',
-            'Scheduled preventive maintenance',
-            'Documentation and permits management',
-            'Port authority coordination',
-            '24/7 emergency service',
-            'Monthly status reports'
+            'Exploratory phase engineering',
+            'Dike reinforcement design',
+            'Geotechnical assessment',
+            'Environmental impact analysis',
+            'Construction methodology planning',
+            'Risk assessment and mitigation'
         ],
-        results: 'Significant improvement in fleet operational efficiency with 30% reduction in maintenance costs. Zero safety incidents during contract period.'
+        results: 'Successfully completed exploratory phase with comprehensive reinforcement plan. Project advanced to full implementation phase with enhanced safety standards.'
     },
     4: {
-        title: 'Specialized Technical Consulting',
-        description: 'Comprehensive consulting for the purchase and outfitting of a high-performance vessel. Includes technical evaluation, purchase negotiation, and supervision of specialized equipment installation.',
-        client: 'Private Client',
-        duration: '3 months',
-        location: 'Alicante, Spain',
-        type: 'Maritime Consulting',
+        title: 'WBI-Beoordeling Kunstwerken Brabantse Delta',
+        description: 'WBI assessment of hydraulic structures in dike section 34-2 for Waterschap Brabantse Delta. Comprehensive evaluation and safety review of all water management structures.',
+        client: 'Waterschap Brabantse Delta',
+        duration: 'Ongoing assessment',
+        location: 'Brabantse Delta region, Netherlands',
+        type: 'Water Management',
         services: [
-            'Technical vessel evaluation',
-            'Market and price analysis',
-            'Detailed pre-purchase inspection',
-            'Equipment consulting',
-            'Installation supervision',
-            'Use and maintenance training'
+            'Hydraulic structure assessment',
+            'Safety compliance evaluation',
+            'WBI (Water Board Instruments) assessment',
+            'Condition monitoring',
+            'Risk analysis and reporting',
+            'Maintenance recommendations'
         ],
-        results: 'Client satisfied with vessel acquired at competitive price and fully equipped to requirements. Estimated 20% savings on equipment costs.'
+        results: 'Comprehensive structural assessment completed. Identified critical maintenance needs and provided actionable recommendations for water safety management.'
     },
     5: {
-        title: 'Security System Installation',
-        description: 'Complete modernization of maritime security systems for a sports marina, including surveillance systems, access control, and emergency equipment.',
-        client: 'Costa del Sol Sports Marina',
-        duration: '2.5 months',
-        location: 'Marbella, Spain',
-        type: 'Security Systems',
+        title: 'Engineering Bureau Bos2Engineering Collaboration',
+        description: 'Joint venture projects with Bos2Engineering specializing in multi-pile construction design and steel bridge design for maritime infrastructure.',
+        client: 'Bos2Engineering',
+        duration: 'Multiple projects',
+        location: 'Cuijk & Amsterdam, Netherlands',
+        type: 'Maritime Infrastructure',
         services: [
-            'Comprehensive security system design',
-            'Camera and sensor installation',
-            'Access control system',
-            'Certified emergency equipment',
-            'Security personnel training',
-            'Quarterly maintenance'
+            'Multi-pile construction design',
+            'Floating pier structures',
+            'Steel bridge design and engineering',
+            'Mooring infrastructure',
+            'Structural analysis and modeling',
+            'Construction supervision'
         ],
-        results: 'State-of-the-art security system successfully installed. Notable improvement in access control and incident reduction. Client very satisfied with professionalism level.'
+        results: 'Successfully delivered innovative floating pier designs and steel bridges. Projects enhanced marina facilities and maritime accessibility.'
     },
     6: {
-        title: 'Repair and Renovation',
-        description: 'Complete restoration of a 12-meter classic wooden vessel. Craftsmanship work that respects original characteristics while modernizing critical systems.',
-        client: 'Private Collector',
-        duration: '6 months',
-        location: 'Palma de Mallorca, Spain',
-        type: 'Classic Restoration',
+        title: 'Detachering Projectbureau VNK2',
+        description: 'Detachment services for VNK2 project office (Safety Netherlands in Maps), utilizing probabilistic modeling to determine flood risk and infrastructure safety assessment.',
+        client: 'Projectbureau VNK2',
+        duration: 'Multi-year program',
+        location: 'Netherlands',
+        type: 'Risk Assessment & Safety',
         services: [
-            'Complete structural evaluation',
-            'Wooden hull restoration',
-            'Original finishing renovation',
-            'Engine and systems modernization',
-            'Certified electrical upgrade',
-            'Historical documentation and photography'
+            'Probabilistic risk modeling',
+            'Flood risk assessment',
+            'Dike ring safety evaluation',
+            'Failure probability analysis',
+            'Infrastructure vulnerability mapping',
+            'Safety recommendations development'
         ],
-        results: 'Classic vessel restored to its original glory with modern systems discreetly integrated. Owner delighted with attention to detail and craftsmanship quality.'
+        results: 'Contributed to nationwide flood risk mapping program. Advanced understanding of Dutch water safety infrastructure and identified critical vulnerability areas.'
     }
 };
 
