@@ -1,20 +1,22 @@
 // Project data
 const projects = {
     1: {
-        title: 'Professional Mooring Installation',
-        description: 'Complete mooring system installation for a 15-meter vessel at Barcelona sports port. Includes custom design, high-quality marine hardware installation, and safety testing.',
-        client: 'Barcelona Sports Port',
-        duration: '2 months',
-        location: 'Barcelona, Spain',
-        type: 'Mooring Installation',
+        title: 'Detachering Grontmij',
+        description: 'Detachering bij ingenieursbureau Grontmij Nederland b.v. in De Bilt. Havens Rotterdam - Brammenterminal, Afmeersteiger Abengoa, Ligplaatsen voor de binnenvaart in het Calandkanaal, en constructief ontwerp remmingswerkconstructies.',
+        client: 'Grontmij Nederland b.v.',
+        duration: 'Multiple phases',
+        location: 'De Bilt & Rotterdam, Netherlands',
+        type: 'Engineering & Design',
         services: [
-            'Design and planning of mooring system',
-            'Installation of professional lines and fenders',
-            'Installation of certified marine hardware',
-            'Resistance and safety testing',
-            'Personnel training'
+            'Brammenterminal: design document review',
+            'Afmeersteiger Abengoa: preliminary design and D&C preparation',
+            'Inland waterway berths: preliminary design',
+            'Mooring structure design for 3 bridges',
+            'Submerged tunnel section review',
+            'New pier construction design',
+            'Settlement-free plate design'
         ],
-        results: 'High-quality mooring system successfully installed, significantly improving the safety and efficiency of port operations. Client reported a 40% reduction in mooring time.'
+        results: 'Successfully completed multiple complex engineering projects for harbors in Rotterdam and the Netherlands. Projects included design review, construction preparation, and technical consultation for various maritime infrastructure components.'
     },
     2: {
         title: 'Complete Maritime Maintenance',
