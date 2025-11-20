@@ -1,105 +1,105 @@
 // Project data
 const projects = {
     1: {
-        title: 'Instalación de Amarre Profesional',
-        description: 'Proyecto completo de instalación de sistema de amarre para embarcación de 15 metros en puerto deportivo de Barcelona. Incluye diseño personalizado, instalación de hardware marino de alta calidad y pruebas de seguridad.',
-        client: 'Puerto Deportivo Barcelona',
-        duration: '2 meses',
-        location: 'Barcelona, España',
-        type: 'Instalación de Amarre',
+        title: 'Professional Mooring Installation',
+        description: 'Complete mooring system installation for a 15-meter vessel at Barcelona sports port. Includes custom design, high-quality marine hardware installation, and safety testing.',
+        client: 'Barcelona Sports Port',
+        duration: '2 months',
+        location: 'Barcelona, Spain',
+        type: 'Mooring Installation',
         services: [
-            'Diseño y planificación del sistema de amarre',
-            'Instalación de cabos y defensas profesionales',
-            'Instalación de hardware marino certificado',
-            'Pruebas de resistencia y seguridad',
-            'Capacitación del personal'
+            'Design and planning of mooring system',
+            'Installation of professional lines and fenders',
+            'Installation of certified marine hardware',
+            'Resistance and safety testing',
+            'Personnel training'
         ],
-        results: 'Sistema de amarre de alta calidad instalado con éxito, mejorando significativamente la seguridad y eficiencia de las operaciones portuarias. El cliente reportó una reducción del 40% en el tiempo de amarre.'
+        results: 'High-quality mooring system successfully installed, significantly improving the safety and efficiency of port operations. Client reported a 40% reduction in mooring time.'
     },
     2: {
-        title: 'Mantenimiento Náutico Completo',
-        description: 'Servicio integral de mantenimiento y restauración de yate de lujo de 25 metros. Trabajo detallado que incluyó revisión completa de sistemas, renovación de equipamiento y mejoras estéticas.',
-        client: 'Cliente Privado',
-        duration: '4 meses',
-        location: 'Málaga, España',
-        type: 'Mantenimiento y Restauración',
+        title: 'Complete Maritime Maintenance',
+        description: 'Comprehensive maintenance and restoration service for a 25-meter luxury yacht. Detailed work that included complete system review, equipment renovation, and aesthetic improvements.',
+        client: 'Private Client',
+        duration: '4 months',
+        location: 'Malaga, Spain',
+        type: 'Maintenance and Restoration',
         services: [
-            'Inspección completa de casco y sistemas',
-            'Mantenimiento de motores y sistemas eléctricos',
-            'Renovación de acabados interiores',
-            'Actualización de sistemas de navegación',
-            'Tratamiento anticorrosivo',
-            'Limpieza y pulido profesional'
+            'Complete hull and systems inspection',
+            'Engine and electrical systems maintenance',
+            'Interior finishing renovation',
+            'Navigation systems upgrade',
+            'Anticorrosive treatment',
+            'Professional cleaning and polishing'
         ],
-        results: 'Yate completamente renovado y en condiciones óptimas. El propietario expresó su satisfacción total con la calidad del trabajo y el cumplimiento de los plazos establecidos.'
+        results: 'Yacht completely renovated and in optimal condition. Owner expressed complete satisfaction with work quality and timeline adherence.'
     },
     3: {
-        title: 'Servicios Portuarios Integrales',
-        description: 'Gestión completa de flota comercial en puerto de Valencia, incluyendo servicios de amarre, mantenimiento preventivo y gestión administrativa para 15 embarcaciones comerciales.',
-        client: 'Naviera Mediterráneo',
-        duration: 'Contrato anual',
-        location: 'Valencia, España',
-        type: 'Gestión de Flota',
+        title: 'Comprehensive Port Services',
+        description: 'Complete commercial fleet management at Valencia port, including mooring services, preventive maintenance, and administrative management for 15 commercial vessels.',
+        client: 'Mediterranean Shipping Line',
+        duration: 'Annual contract',
+        location: 'Valencia, Spain',
+        type: 'Fleet Management',
         services: [
-            'Gestión de amarres y espacios portuarios',
-            'Mantenimiento preventivo programado',
-            'Gestión de documentación y permisos',
-            'Coordinación con autoridades portuarias',
-            'Servicio de emergencia 24/7',
-            'Informes mensuales de estado'
+            'Mooring and port space management',
+            'Scheduled preventive maintenance',
+            'Documentation and permits management',
+            'Port authority coordination',
+            '24/7 emergency service',
+            'Monthly status reports'
         ],
-        results: 'Mejora significativa en la eficiencia operativa de la flota con reducción del 30% en costos de mantenimiento. Cero incidentes de seguridad durante el período del contrato.'
+        results: 'Significant improvement in fleet operational efficiency with 30% reduction in maintenance costs. Zero safety incidents during contract period.'
     },
     4: {
-        title: 'Asesoramiento Técnico Especializado',
-        description: 'Consultoría integral para la compra y equipamiento de embarcación de alto rendimiento. Incluye evaluación técnica, negociación de compra, y supervisión de instalación de equipamiento especializado.',
-        client: 'Cliente Privado',
-        duration: '3 meses',
-        location: 'Alicante, España',
-        type: 'Consultoría Náutica',
+        title: 'Specialized Technical Consulting',
+        description: 'Comprehensive consulting for the purchase and outfitting of a high-performance vessel. Includes technical evaluation, purchase negotiation, and supervision of specialized equipment installation.',
+        client: 'Private Client',
+        duration: '3 months',
+        location: 'Alicante, Spain',
+        type: 'Maritime Consulting',
         services: [
-            'Evaluación técnica de embarcaciones',
-            'Análisis de mercado y precios',
-            'Inspección pre-compra detallada',
-            'Asesoramiento en equipamiento',
-            'Supervisión de instalaciones',
-            'Capacitación en uso y mantenimiento'
+            'Technical vessel evaluation',
+            'Market and price analysis',
+            'Detailed pre-purchase inspection',
+            'Equipment consulting',
+            'Installation supervision',
+            'Use and maintenance training'
         ],
-        results: 'Cliente satisfecho con embarcación adquirida a precio competitivo y completamente equipada según sus necesidades. Ahorro estimado del 20% en costos de equipamiento.'
+        results: 'Client satisfied with vessel acquired at competitive price and fully equipped to requirements. Estimated 20% savings on equipment costs.'
     },
     5: {
-        title: 'Instalación de Sistemas de Seguridad',
-        description: 'Proyecto de modernización completa de sistemas de seguridad marítima para marina deportiva, incluyendo sistemas de vigilancia, control de acceso y equipamiento de emergencia.',
-        client: 'Marina Deportiva Costa del Sol',
-        duration: '2.5 meses',
-        location: 'Marbella, España',
-        type: 'Sistemas de Seguridad',
+        title: 'Security System Installation',
+        description: 'Complete modernization of maritime security systems for a sports marina, including surveillance systems, access control, and emergency equipment.',
+        client: 'Costa del Sol Sports Marina',
+        duration: '2.5 months',
+        location: 'Marbella, Spain',
+        type: 'Security Systems',
         services: [
-            'Diseño de sistema de seguridad integral',
-            'Instalación de cámaras y sensores',
-            'Sistema de control de acceso',
-            'Equipamiento de emergencia certificado',
-            'Capacitación del personal de seguridad',
-            'Mantenimiento trimestral'
+            'Comprehensive security system design',
+            'Camera and sensor installation',
+            'Access control system',
+            'Certified emergency equipment',
+            'Security personnel training',
+            'Quarterly maintenance'
         ],
-        results: 'Sistema de seguridad de última generación instalado con éxito. Mejora notable en el control de acceso y reducción de incidentes. Cliente muy satisfecho con el nivel de profesionalismo.'
+        results: 'State-of-the-art security system successfully installed. Notable improvement in access control and incident reduction. Client very satisfied with professionalism level.'
     },
     6: {
-        title: 'Reparación y Renovación',
-        description: 'Proyecto de restauración completa de embarcación clásica de madera de 12 metros. Trabajo artesanal que respeta las características originales mientras moderniza sistemas críticos.',
-        client: 'Coleccionista Privado',
-        duration: '6 meses',
-        location: 'Palma de Mallorca, España',
-        type: 'Restauración Clásica',
+        title: 'Repair and Renovation',
+        description: 'Complete restoration of a 12-meter classic wooden vessel. Craftsmanship work that respects original characteristics while modernizing critical systems.',
+        client: 'Private Collector',
+        duration: '6 months',
+        location: 'Palma de Mallorca, Spain',
+        type: 'Classic Restoration',
         services: [
-            'Evaluación estructural completa',
-            'Restauración de casco de madera',
-            'Renovación de acabados originales',
-            'Modernización de motor y sistemas',
-            'Actualización eléctrica certificada',
-            'Documentación histórica y fotográfica'
+            'Complete structural evaluation',
+            'Wooden hull restoration',
+            'Original finishing renovation',
+            'Engine and systems modernization',
+            'Certified electrical upgrade',
+            'Historical documentation and photography'
         ],
-        results: 'Embarcación clásica restaurada a su gloria original con sistemas modernos integrados discretamente. El propietario quedó encantado con la atención al detalle y la calidad artesanal del trabajo.'
+        results: 'Classic vessel restored to its original glory with modern systems discreetly integrated. Owner delighted with attention to detail and craftsmanship quality.'
     }
 };
 
