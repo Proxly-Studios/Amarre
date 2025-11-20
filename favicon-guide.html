@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Generator - Amarre</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .icon-preview {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #0066cc, #00aaff);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚢 Favicon Setup for Amarre</h1>
+    
+    <div class="icon-preview">A</div>
+    
+    <h2>How to Add a Favicon</h2>
+    
+    <p>Follow these steps to add a favicon to your website:</p>
+    
+    <ol>
+        <li>
+            <strong>Create your favicon:</strong>
+            <ul>
+                <li>Visit <a href="https://favicon.io/" target="_blank">favicon.io</a></li>
+                <li>Use their text-to-favicon generator with the letter "A"</li>
+                <li>Choose colors matching your brand (primary: #0066cc)</li>
+                <li>Download the generated files</li>
+            </ul>
+        </li>
+        
+        <li>
+            <strong>Alternative - Use RealFaviconGenerator:</strong>
+            <ul>
+                <li>Visit <a href="https://realfavicongenerator.net/" target="_blank">realfavicongenerator.net</a></li>
+                <li>Upload an image or logo</li>
+                <li>Generate all sizes for different platforms</li>
+            </ul>
+        </li>
+        
+        <li>
+            <strong>Add files to your project:</strong>
+            <ul>
+                <li>Create a folder named <code>images</code> or <code>assets</code> in your root directory</li>
+                <li>Place all favicon files there</li>
+            </ul>
+        </li>
+        
+        <li>
+            <strong>Add to your HTML <code>&lt;head&gt;</code> section:</strong>
+            <pre><code>&lt;link rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt;
+&lt;link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"&gt;
+&lt;link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"&gt;
+&lt;link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"&gt;</code></pre>
+        </li>
+    </ol>
+    
+    <h2>Quick SVG Favicon (Modern Browsers)</h2>
+    
+    <p>For a quick solution, you can create a simple SVG favicon and add it to your HTML:</p>
+    
+    <pre><code>&lt;link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;rect width='100' height='100' fill='%230066cc'/&gt;&lt;text y='75' font-size='80' fill='white' font-family='sans-serif' font-weight='bold'&gt;A&lt;/text&gt;&lt;/svg&gt;"&gt;</code></pre>
+    
+    <p><strong>Note:</strong> Add the favicon link tags to all HTML files in your project (index.html, servicios.html, sobre-nosotros.html, contacto.html).</p>
+</body>
+</html>

@@ -1,114 +1,216 @@
-# Amarre
+# Amarre 🚢
 
-Sitio web estático profesional para servicios de amarre y náutica en España.
+Professional mooring and nautical services website for Spain.
 
-## Descripción
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Amarre es un sitio web completamente responsivo diseñado para un negocio de servicios náuticos en España. El sitio está optimizado para verse perfectamente en todos los dispositivos: móviles, tablets y ordenadores de escritorio.
+## 📋 Overview
 
-## Características
+Amarre is a modern, fully responsive static website designed for a nautical services company in Spain. The site features a clean, professional design optimized for all devices - mobile phones, tablets, and desktop computers.
 
-- ✅ **Diseño Responsivo**: Optimizado para todos los tamaños de pantalla (móviles, tablets, escritorio)
-- ✅ **Navegación Móvil**: Menú hamburguesa para dispositivos móviles
-- ✅ **HTML5 Semántico**: Estructura de código limpia y moderna
-- ✅ **CSS3 Moderno**: Utiliza CSS Grid, Flexbox y variables CSS
-- ✅ **Accesibilidad**: Etiquetas ARIA y navegación por teclado
-- ✅ **Multi-página**: Inicio, Servicios, Sobre Nosotros y Contacto
-- ✅ **Sin dependencias**: No requiere frameworks o librerías externas
+## ✨ Features
 
-## Estructura del Proyecto
+- ✅ **Fully Responsive**: Optimized for all screen sizes (mobile, tablet, desktop)
+- ✅ **Mobile Navigation**: Hamburger menu for mobile devices with smooth animations
+- ✅ **Semantic HTML5**: Clean, modern code structure
+- ✅ **Modern CSS3**: Utilizes CSS Grid, Flexbox, and CSS custom properties
+- ✅ **Accessible**: ARIA labels and keyboard navigation support
+- ✅ **Multi-page**: Home, Services, About Us, and Contact pages
+- ✅ **Zero Dependencies**: No frameworks or external libraries required
+- ✅ **Professional Dev Tools**: ESLint, Prettier, Stylelint configured
+- ✅ **Live Reload**: Development server with hot reload
+
+## 📁 Project Structure
 
 ```
 Amarre/
-├── index.html              # Página principal
-├── servicios.html          # Página de servicios
-├── sobre-nosotros.html     # Página sobre nosotros
-├── contacto.html           # Página de contacto
+├── index.html              # Homepage
+├── servicios.html          # Services page
+├── sobre-nosotros.html     # About Us page
+├── contacto.html           # Contact page
 ├── css/
-│   └── styles.css         # Estilos principales
+│   └── styles.css          # Main stylesheet (responsive)
 ├── js/
-│   └── script.js          # JavaScript para navegación móvil
-└── README.md              # Este archivo
+│   └── script.js           # JavaScript for mobile navigation
+├── .vscode/                # VS Code settings and extensions
+├── package.json            # Node.js dependencies and scripts
+├── .prettierrc             # Code formatting configuration
+├── .eslintrc.json          # JavaScript linting rules
+├── .stylelintrc.json       # CSS linting rules
+├── .gitignore              # Git ignore rules
+├── CONTRIBUTING.md         # Contribution guidelines
+├── QUICK-START.md          # Quick reference guide
+└── README.md               # This file
 ```
 
-## Instalación y Uso
+## 🚀 Getting Started
 
-### Opción 1: Servidor Local Simple
+### Prerequisites
 
-```bash
-# Con Python 3
-python -m http.server 8000
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm (comes with Node.js)
 
-# Con Python 2
-python -m SimpleHTTPServer 8000
+### Installation
 
-# Con Node.js (si tienes http-server instalado)
-npx http-server -p 8000
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Proxly-Studios/Amarre.git
+   cd Amarre
+   ```
 
-Luego abre tu navegador en `http://localhost:8000`
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### Opción 2: Abrir Directamente
+3. **Start development server:**
+   ```bash
+   npm run dev
+   ```
 
-Simplemente abre el archivo `index.html` en tu navegador web favorito.
+   This will open the website at `http://localhost:8080` with live reload enabled.
 
-### Opción 3: Despliegue en la Nube
+## 📜 Available Scripts
 
-#### GitHub Pages
-1. Sube los archivos a un repositorio de GitHub
-2. Ve a Settings > Pages
-3. Selecciona la rama principal como fuente
-4. Tu sitio estará disponible en `https://tu-usuario.github.io/nombre-repo`
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start live development server with hot reload |
+| `npm start` | Alternative command to start the development server |
+| `npm run format` | Auto-format all HTML, CSS, JS, JSON, and MD files |
+| `npm run format:check` | Check if files are formatted correctly |
+| `npm run lint:css` | Lint CSS files with Stylelint |
+| `npm run lint:js` | Lint JavaScript files with ESLint |
+| `npm run validate` | Run all formatting and linting checks |
 
-#### Netlify
-1. Arrastra la carpeta del proyecto a [Netlify Drop](https://app.netlify.com/drop)
-2. Tu sitio estará disponible inmediatamente
+## 🎨 Customization
 
-#### Vercel
-```bash
-npm i -g vercel
-vercel
-```
+### Colors
 
-## Personalización
-
-### Colores
-Los colores se pueden cambiar fácilmente editando las variables CSS en `css/styles.css`:
+The site uses CSS custom properties for easy theming. Edit `css/styles.css`:
 
 ```css
 :root {
-    --primary-color: #0066cc;
-    --secondary-color: #004080;
-    --accent-color: #00aaff;
-    /* ... más colores */
+    --primary-color: #0066cc;      /* Main brand color */
+    --secondary-color: #004080;    /* Dark brand color */
+    --accent-color: #00aaff;       /* Accent/highlight color */
+    --text-color: #333;            /* Main text color */
+    --light-bg: #f5f5f5;           /* Light background */
+    --white: #ffffff;              /* White */
 }
 ```
 
-### Contenido
-Edita los archivos HTML para actualizar:
-- Textos e información de la empresa
-- Servicios ofrecidos
-- Información de contacto
+### Content
 
-## Responsive Breakpoints
+- **Company Information**: Edit `sobre-nosotros.html`
+- **Services**: Edit `servicios.html`
+- **Contact Details**: Edit `contacto.html`
+- **Homepage**: Edit `index.html`
 
-- **Móvil**: < 480px
-- **Tablet**: 481px - 768px
+### Adding Images
+
+1. Create an `images/` folder in the root directory
+2. Add your images to the folder
+3. Reference them in HTML: `<img src="images/your-image.jpg" alt="Description">`
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 480px
+- **Tablet**: 481px - 768px  
 - **Desktop**: 769px - 1024px
 - **Large Desktop**: > 1024px
 
-## Navegadores Soportados
+## 🌐 Browser Support
 
-- Chrome (últimas 2 versiones)
-- Firefox (últimas 2 versiones)
-- Safari (últimas 2 versiones)
-- Edge (últimas 2 versiones)
-- Navegadores móviles (iOS Safari, Chrome Mobile)
+- Chrome (latest 2 versions)
+- Firefox (latest 2 versions)
+- Safari (latest 2 versions)
+- Edge (latest 2 versions)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## Licencia
+## 🚀 Deployment
 
-© 2024 Amarre. Todos los derechos reservados.
+### Option 1: GitHub Pages (Free)
 
-## Soporte
+1. Push your code to GitHub
+2. Go to repository Settings > Pages
+3. Select main branch as source
+4. Your site will be available at `https://your-username.github.io/Amarre`
 
-Para soporte o consultas, contacta a través del formulario en la página de contacto.
+### Option 2: Netlify (Free)
+
+1. Go to [Netlify Drop](https://app.netlify.com/drop)
+2. Drag and drop your project folder
+3. Your site will be live instantly with a custom URL
+
+### Option 3: Vercel (Free)
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### Option 4: Simple HTTP Server
+
+#### Using Python 3:
+```bash
+python -m http.server 8000
+```
+
+#### Using Node.js:
+```bash
+npx http-server -p 8000
+```
+
+Then open your browser at `http://localhost:8000`
+
+## 🛠️ Technology Stack
+
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with Flexbox and Grid
+- **JavaScript (ES6+)**: Interactive features
+- **Live Server**: Development server with live reload
+- **Prettier**: Code formatting
+- **ESLint**: JavaScript linting
+- **Stylelint**: CSS linting
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+### Quick Contribution Steps
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+ISC License - See [package.json](package.json) for details.
+
+Copyright © 2024 Amarre. All rights reserved.
+
+## 👥 Author
+
+**Proxly Studios**
+
+## 📞 Support
+
+- 📧 Email: info@amarre.es
+- 📝 Issues: [GitHub Issues](https://github.com/Proxly-Studios/Amarre/issues)
+- 📖 Documentation: See [QUICK-START.md](QUICK-START.md) for quick reference
+
+## 🎯 Quick Links
+
+- [Setup Guide](SETUP-COMPLETE.md) - Complete setup instructions
+- [Quick Start](QUICK-START.md) - Quick reference for common tasks
+- [Contributing](CONTRIBUTING.md) - Development guidelines
+- [Favicon Guide](favicon-guide.html) - How to add a favicon
+
+---
+
+**Built with ❤️ by Proxly Studios**

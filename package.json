@@ -1,0 +1,31 @@
+{
+  "name": "amarre",
+  "version": "1.0.0",
+  "description": "Amarre - Professional mooring and nautical services website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=8080 --open=index.html",
+    "start": "npx live-server --port=8080 --open=index.html",
+    "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",
+    "format:check": "npx prettier --check \"**/*.{html,css,js,json,md}\"",
+    "lint:css": "npx stylelint \"css/**/*.css\"",
+    "lint:js": "npx eslint \"js/**/*.js\"",
+    "validate": "npm run format:check && npm run lint:css && npm run lint:js"
+  },
+  "keywords": [
+    "amarre",
+    "nautical",
+    "mooring",
+    "maritime",
+    "spain"
+  ],
+  "author": "Proxly Studios",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "live-server": "^1.2.2"
+  }
+}
