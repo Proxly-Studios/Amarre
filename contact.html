@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Amarre">
+    <meta name="description" content="Contact Amarre">
     <title>Amarre - Contact</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -42,7 +43,12 @@
             <div class="container">
                 <p style="text-align: center; margin-bottom: 2rem;">We are here to help. Please complete the form below and we will contact you as soon as possible.</p>
                 
-                <form class="contact-form" action="#" method="POST">
+                <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <!-- Honeypot field to trap bots -->
+                    <p style="display:none;">
+                        <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                    </p>
                     <div class="form-group">
                         <label for="nombre">Name *</label>
                         <input type="text" id="nombre" name="nombre" required>
@@ -73,6 +79,9 @@
                     </div>
                 </form>
 
+                <!-- Inline messages -->
+                <div id="form-messages" aria-live="polite" style="margin-top:1rem; display:none;"></div>
+
                 <div style="margin-top: 3rem; text-align: center;">
                     <h3 style="color: var(--secondary-color); margin-bottom: 1rem;">Contact Information</h3>
                     <p><strong>Location:</strong> Spain</p>
@@ -91,5 +100,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/form-submit.js"></script>
 </body>
 </html>
