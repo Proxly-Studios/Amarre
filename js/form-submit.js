@@ -7,10 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function showMessage(text, isError = false) {
     messages.style.display = 'block';
     messages.textContent = text;
-    messages.style.color = isError ? 'var(--light-orange)' : 'var(--white)';
-    messages.style.background = isError ? 'rgba(128,0,0,0.1)' : 'rgba(0,0,0,0.15)';
-    messages.style.padding = '1rem';
-    messages.style.borderRadius = '6px';
+    messages.className = `form-messages-container ${isError ? 'error' : 'success'}`;
   }
 
   form.addEventListener('submit', async (e) => {
